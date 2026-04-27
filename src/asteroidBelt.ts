@@ -9,8 +9,8 @@ export function createAsteroidBelt(gl: WebGL2RenderingContext, aPositionLoc: num
 
   for (let i = 0; i < COUNT; i++) {
     const angle = Math.random() * Math.PI * 2;
-    // Main belt: Mars r=12, Jupiter r=17 → belt sits at 13.8–16.2
-    const r = 13.8 + Math.random() * 2.4;
+    // Main belt: Mars r=12.5, Jupiter r=21.0 → belt sits at 14.0–16.0
+    const r = 14.0 + Math.random() * 2.0;
     const h = (Math.random() - 0.5) * 0.7;
     pos[i * 3]     = Math.cos(angle) * r;
     pos[i * 3 + 1] = h;
