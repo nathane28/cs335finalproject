@@ -84,7 +84,7 @@ export const planets: PlanetConfig[] = [
   },
   {
     name: "Mars",
-    radius: 0.42, orbitRadius: 12.0, orbitSpeed: 0.80, selfRotSpeed: 0.48,
+    radius: 0.42, orbitRadius: 12.5, orbitSpeed: 0.80, selfRotSpeed: 0.48,
     shininess: 14, bumpIntensity: 1.0,
     color:          [0.82, 0.30, 0.12],
     secondaryColor: [0.52, 0.18, 0.08],
@@ -102,7 +102,7 @@ export const planets: PlanetConfig[] = [
   },
   {
     name: "Jupiter",
-    radius: 2.20, orbitRadius: 17.0, orbitSpeed: 0.43, selfRotSpeed: 1.20,
+    radius: 2.20, orbitRadius: 21.0, orbitSpeed: 0.43, selfRotSpeed: 1.20,
     shininess:  8, bumpIntensity: 0.05,
     color:          [0.80, 0.64, 0.44],
     secondaryColor: [0.60, 0.36, 0.22],
@@ -120,7 +120,7 @@ export const planets: PlanetConfig[] = [
   },
   {
     name: "Saturn",
-    radius: 1.75, orbitRadius: 22.0, orbitSpeed: 0.32, selfRotSpeed: 1.10,
+    radius: 1.75, orbitRadius: 30.0, orbitSpeed: 0.32, selfRotSpeed: 1.10,
     shininess: 10, bumpIntensity: 0.05,
     color:          [0.90, 0.84, 0.58],
     secondaryColor: [0.72, 0.60, 0.35],
@@ -138,7 +138,7 @@ export const planets: PlanetConfig[] = [
   },
   {
     name: "Uranus",
-    radius: 1.05, orbitRadius: 27.0, orbitSpeed: 0.22, selfRotSpeed: 0.70,
+    radius: 1.05, orbitRadius: 38.5, orbitSpeed: 0.22, selfRotSpeed: 0.70,
     shininess: 28, bumpIntensity: 0.1,
     color:          [0.50, 0.86, 0.90],
     secondaryColor: [0.32, 0.68, 0.78],
@@ -156,7 +156,7 @@ export const planets: PlanetConfig[] = [
   },
   {
     name: "Neptune",
-    radius: 0.98, orbitRadius: 32.0, orbitSpeed: 0.14, selfRotSpeed: 0.65,
+    radius: 0.98, orbitRadius: 45.0, orbitSpeed: 0.14, selfRotSpeed: 0.65,
     shininess: 32, bumpIntensity: 0.1,
     color:          [0.18, 0.28, 0.92],
     secondaryColor: [0.08, 0.12, 0.65],
